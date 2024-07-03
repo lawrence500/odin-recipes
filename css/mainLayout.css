@@ -20,6 +20,27 @@ header{
     background-color: lightcoral;
 }
 
+.nav-bar{
+    background-color: lightblue;
+    height: 5vh;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    color: black;
+    padding: 10px;
+}
+
+.nav-bar ul li a{text-decoration: none;}
+
+.nav-bar ul li a:visited{color: black;}
+
 main{
     height: 100svh;
     background-color: lightgray;
