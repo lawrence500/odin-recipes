@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container img {
+    width: 50%;
+    height: auto;
+
+    object-fit: cover;
+    object-position: center;
+
+    margin: auto;
+
+}
+
+.container h2{
+    font-weight: bold;
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.container .description{
+    background-color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+
+    width: 90vw;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow:  0 0 15px black;
+}
+
+.list-title{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.list-title.one{
+    background-color: lightcoral;
+}
+
+.list-title.two{
+    background-color: rgb(218, 69, 69);
+}
