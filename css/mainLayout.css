@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 10vh;
+    background-color: lightcoral;
+}
+
+main{
+    height: 100svh;
+    background-color: lightgray;
+}
